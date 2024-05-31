@@ -12,15 +12,15 @@ import (
 
 	gm "github.com/mitchellh/go-mruby"
 
-	"github.com/box-builder/box/builder/command"
-	"github.com/box-builder/box/builder/evaluator"
-	"github.com/box-builder/box/builder/evaluator/mruby"
-	"github.com/box-builder/box/builder/executor/docker"
-	"github.com/box-builder/box/logger"
-	"github.com/box-builder/box/signal"
-	"github.com/box-builder/box/types"
+	"github.com/pensando/box/builder/command"
+	"github.com/pensando/box/builder/evaluator"
+	"github.com/pensando/box/builder/evaluator/mruby"
+	"github.com/pensando/box/builder/executor/docker"
+	"github.com/pensando/box/logger"
+	"github.com/pensando/box/signal"
+	"github.com/pensando/box/types"
 	"github.com/chzyer/readline"
-	"github.com/docker/docker/pkg/term"
+	"github.com/moby/term"
 	"github.com/fatih/color"
 )
 

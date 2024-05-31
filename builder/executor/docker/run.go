@@ -11,7 +11,7 @@ import (
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/pkg/term"
+	"github.com/moby/term"
 )
 
 func (d *Docker) stdinCopy(conn net.Conn, errChan chan error) (io.WriteCloser, *term.State) {

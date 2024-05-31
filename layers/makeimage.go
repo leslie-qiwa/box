@@ -12,10 +12,10 @@ import (
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 
-	"github.com/box-builder/box/builder/config"
-	"github.com/box-builder/box/copy"
-	om "github.com/box-builder/overmount"
-	"github.com/box-builder/overmount/imgio"
+	"github.com/pensando/box/builder/config"
+	"github.com/pensando/box/copy"
+	om "github.com/pensando/overmount"
+	"github.com/pensando/overmount/imgio"
 )
 
 const imgIDText = "Loaded image ID: "

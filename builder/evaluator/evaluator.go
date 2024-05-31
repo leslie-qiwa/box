@@ -1,7 +1,7 @@
 package evaluator
 
 import (
-	"github.com/box-builder/box/types"
+	"github.com/pensando/box/types"
 )
 
 // Evaluator is a generic language evaluator.

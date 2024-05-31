@@ -7,11 +7,11 @@ import (
 	"os"
 	"path"
 
-	"github.com/box-builder/box/builder/config"
-	"github.com/box-builder/box/copy"
-	"github.com/box-builder/box/signal"
-	bt "github.com/box-builder/box/tar"
-	"github.com/box-builder/box/types"
+	"github.com/pensando/box/builder/config"
+	"github.com/pensando/box/copy"
+	"github.com/pensando/box/signal"
+	bt "github.com/pensando/box/tar"
+	"github.com/pensando/box/types"
 )
 
 // Layer is one unit of storage.

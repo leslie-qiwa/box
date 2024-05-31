@@ -8,12 +8,12 @@ import (
 	"strings"
 	. "testing"
 
-	"github.com/box-builder/box/logger"
-	bt "github.com/box-builder/box/tar"
-	btypes "github.com/box-builder/box/types"
+	"github.com/pensando/box/logger"
+	bt "github.com/pensando/box/tar"
+	btypes "github.com/pensando/box/types"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/term"
+	"github.com/moby/term"
 
 	. "gopkg.in/check.v1"
 )

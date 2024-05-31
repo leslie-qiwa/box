@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/box-builder/box/builder/command"
-	"github.com/box-builder/box/builder/executor"
-	"github.com/box-builder/box/types"
+	"github.com/pensando/box/builder/command"
+	"github.com/pensando/box/builder/executor"
+	"github.com/pensando/box/types"
 	gm "github.com/mitchellh/go-mruby"
 )
 

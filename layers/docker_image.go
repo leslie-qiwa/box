@@ -12,10 +12,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/box-builder/box/copy"
-	"github.com/box-builder/box/image"
-	om "github.com/box-builder/overmount"
-	"github.com/box-builder/overmount/imgio"
+	"github.com/pensando/box/copy"
+	"github.com/pensando/box/image"
+	om "github.com/pensando/overmount"
+	"github.com/pensando/overmount/imgio"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 )

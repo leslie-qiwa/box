@@ -9,10 +9,10 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	btypes "github.com/box-builder/box/types"
+	btypes "github.com/pensando/box/types"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/pkg/term"
+	"github.com/moby/term"
 )
 
 func runBuilder(script string) (*Builder, error) {

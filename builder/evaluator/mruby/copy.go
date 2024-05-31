@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/box-builder/box/builder/config"
-	"github.com/box-builder/box/util"
+	"github.com/pensando/box/builder/config"
+	"github.com/pensando/box/util"
 	mruby "github.com/mitchellh/go-mruby"
 )
 

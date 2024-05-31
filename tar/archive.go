@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/box-builder/box/copy"
-	"github.com/box-builder/box/logger"
-	"github.com/box-builder/box/signal"
+	"github.com/pensando/box/copy"
+	"github.com/pensando/box/logger"
+	"github.com/pensando/box/signal"
 	"github.com/docker/docker/pkg/archive"
 )
 

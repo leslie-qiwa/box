@@ -11,13 +11,13 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/box-builder/box/builder/config"
-	"github.com/box-builder/box/image"
-	"github.com/box-builder/box/logger"
-	btypes "github.com/box-builder/box/types"
+	"github.com/pensando/box/builder/config"
+	"github.com/pensando/box/image"
+	"github.com/pensando/box/logger"
+	btypes "github.com/pensando/box/types"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/term"
+	"github.com/moby/term"
 )
 
 var dockerClient *client.Client

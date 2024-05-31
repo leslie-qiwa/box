@@ -15,8 +15,8 @@ import (
 	. "testing"
 	"time"
 
-	"github.com/box-builder/box/builder/command"
-	btypes "github.com/box-builder/box/types"
+	"github.com/pensando/box/builder/command"
+	btypes "github.com/pensando/box/types"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/strslice"
 	"github.com/docker/docker/client"
@@ -1267,8 +1267,8 @@ func (bs *builderSuite) TestInsideRelativeWorkDir(c *C) {
 
 	_, err = runBuilder(`
 		from "debian"
-		copy ".", "/go/src/github.com/box-builder/box/builder/"
-		run "ls /go/src/github.com/box-builder/box/builder/"
+		copy ".", "/go/src/github.com/pensando/box/builder/"
+		run "ls /go/src/github.com/pensando/box/builder/"
 	`)
 	c.Assert(err, IsNil)
 }

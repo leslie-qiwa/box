@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/box-builder/box/tar"
-	"github.com/box-builder/box/util"
+	"github.com/pensando/box/tar"
+	"github.com/pensando/box/util"
 	"github.com/pkg/errors"
 )
 

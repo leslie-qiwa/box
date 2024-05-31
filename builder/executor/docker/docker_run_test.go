@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/box-builder/box/logger"
-	"github.com/box-builder/box/types"
+	"github.com/pensando/box/logger"
+	"github.com/pensando/box/types"
 
 	. "gopkg.in/check.v1"
 )

@@ -3,8 +3,8 @@ package layers
 import (
 	"io"
 
-	"github.com/box-builder/box/builder/config"
-	"github.com/box-builder/box/types"
+	"github.com/pensando/box/builder/config"
+	"github.com/pensando/box/types"
 )
 
 // Image needs a description

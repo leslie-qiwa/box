@@ -3,9 +3,9 @@ package multi
 import (
 	"fmt"
 
-	"github.com/box-builder/box/builder"
-	"github.com/box-builder/box/logger"
-	"github.com/box-builder/box/types"
+	"github.com/pensando/box/builder"
+	"github.com/pensando/box/logger"
+	"github.com/pensando/box/types"
 )
 
 // Builder is the entrypoint to the multi-build system. It contains several

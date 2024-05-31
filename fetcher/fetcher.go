@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/box-builder/box/builder/config"
-	"github.com/box-builder/box/pull"
-	btypes "github.com/box-builder/box/types"
+	"github.com/pensando/box/builder/config"
+	"github.com/pensando/box/pull"
+	btypes "github.com/pensando/box/types"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 )

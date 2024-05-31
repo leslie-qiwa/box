@@ -7,8 +7,8 @@
 package command
 
 import (
-	"github.com/box-builder/box/builder/executor"
-	"github.com/box-builder/box/types"
+	"github.com/pensando/box/builder/executor"
+	"github.com/pensando/box/types"
 )
 
 // Interpreter is a set of statements combined with an executor used to compose

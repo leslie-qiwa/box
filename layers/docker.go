@@ -5,10 +5,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/box-builder/box/builder/config"
-	"github.com/box-builder/box/fetcher"
-	"github.com/box-builder/box/image"
-	"github.com/box-builder/box/types"
+	"github.com/pensando/box/builder/config"
+	"github.com/pensando/box/fetcher"
+	"github.com/pensando/box/image"
+	"github.com/pensando/box/types"
 	"github.com/docker/docker/client"
 )
 

@@ -8,11 +8,11 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/box-builder/box/builder/config"
-	"github.com/box-builder/box/builder/executor"
-	"github.com/box-builder/box/layers"
-	btypes "github.com/box-builder/box/types"
-	"github.com/box-builder/box/util"
+	"github.com/pensando/box/builder/config"
+	"github.com/pensando/box/builder/executor"
+	"github.com/pensando/box/layers"
+	btypes "github.com/pensando/box/types"
+	"github.com/pensando/box/util"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 )

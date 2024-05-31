@@ -7,14 +7,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/box-builder/box/builder"
-	"github.com/box-builder/box/copy"
-	"github.com/box-builder/box/logger"
-	"github.com/box-builder/box/multi"
-	"github.com/box-builder/box/repl"
-	"github.com/box-builder/box/signal"
-	"github.com/box-builder/box/types"
-	"github.com/docker/docker/pkg/term"
+	"github.com/moby/term"
+	"github.com/pensando/box/builder"
+	"github.com/pensando/box/copy"
+	"github.com/pensando/box/logger"
+	"github.com/pensando/box/multi"
+	"github.com/pensando/box/repl"
+	"github.com/pensando/box/signal"
+	"github.com/pensando/box/types"
 	"github.com/urfave/cli"
 )
 

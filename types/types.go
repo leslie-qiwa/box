@@ -3,7 +3,7 @@ package types
 import (
 	"context"
 
-	"github.com/box-builder/box/logger"
+	"github.com/pensando/box/logger"
 )
 
 // BuildResult is an bunch of stuff that communicates a build result.

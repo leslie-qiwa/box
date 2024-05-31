@@ -5,10 +5,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/box-builder/box/logger"
-	"github.com/box-builder/progress"
-	"github.com/docker/docker/pkg/term"
 	"github.com/fatih/color"
+	"github.com/moby/term"
+	"github.com/pensando/box/logger"
+	"github.com/pensando/progress"
 )
 
 // NoTTY turns the progress meters off

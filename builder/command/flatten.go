@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/box-builder/box/copy"
-	"github.com/box-builder/box/signal"
+	"github.com/pensando/box/copy"
+	"github.com/pensando/box/signal"
 )
 
 // Flatten implements `flatten`
